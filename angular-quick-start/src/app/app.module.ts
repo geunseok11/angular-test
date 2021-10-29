@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -15,7 +16,7 @@ import { Sample4Component } from './components/sample4/sample4.component';
     Sample3Component,
     Sample4Component,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
